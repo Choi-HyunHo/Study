@@ -5,7 +5,7 @@
 <br>
 
 ## HTML
-- [DOCTYPE 이란?](#html\doctype.md)
+- [DOCTYPE 이란?](html/doctype.md)
 - 표준모드(standards mode)와 호환모드(quirks mode)
 - 웹 표준과 웹 접근성
 - 메타태그 
