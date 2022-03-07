@@ -47,6 +47,6 @@ Document Type의 약어입니다.
 
 <br>
 
-### 참조
+### 참고
 - [문서 타입 정의](https://developer.mozilla.org/ko/docs/Glossary/Doctype)
 - [문서 형식 선언](https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8)
