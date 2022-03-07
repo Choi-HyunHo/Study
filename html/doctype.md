@@ -45,3 +45,8 @@ Document Type의 약어입니다.
 - HTML은 `<html>, <head>, <body>` 로 구성되어 있습니다. 그리고 가장 최상단 `<!DOCTYPE html...>` 있습니다.
 - DOCTYPE는 `<html>` 태그 보다 먼저 선언하는 것이 일반적이며, 태그가 아니기 때문에 </> 과 같이 닫아주지 않아도 됩니다.
 
+<br>
+
+### 참조
+- [문서 타입 정의](https://developer.mozilla.org/ko/docs/Glossary/Doctype)
+- [문서 형식 선언](https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8)
