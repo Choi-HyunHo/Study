@@ -37,7 +37,11 @@
 
 <br>
 
-이런 식으로 태그가 가지고 있는 의미에 맞게 사용하는 것인데, 이런 점 이외에도 CSS 스타일을 명시하는 태그를 사용하지 않는 것 또한 시맨틱 마크업의 한 종류 입니다. 즉, 태그가 가지는 의미 자체가 스타일이라면 이는 마크업 자체가 스타일을 갖는 것이기 때문에 시맨틱 마크업에 적합하지 않습니다.
+이런 식으로 태그가 가지고 있는 의미에 맞게 사용하는 것인데, 이런 점 이외에도 CSS 스타일을 명시하는 태그를 사용하지 않는 것 또한 시맨틱 마크업의 한 종류 입니다.
+
+<br>
+
+-  즉, 태그가 가지는 의미 자체가 스타일이라면 이는 마크업 자체가 스타일을 갖는 것이기 때문에 시맨틱 마크업에 적합하지 않습니다.
 
 <br>
 
@@ -58,3 +62,4 @@
 - [MDN, Semantics](https://developer.mozilla.org/ko/docs/Glossary/Semantics)
 - [www.w3schools.com/html/html5_semantic_elements.asp](www.w3schools.com/html/html5_semantic_elements.asp)
 - [https://www.thinkful.com/](https://www.thinkful.com/)
+- [https://velog.io/@hyun_sang](https://velog.io/@hyun_sang/HTML-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EB%A7%88%ED%81%AC%EC%97%85)
