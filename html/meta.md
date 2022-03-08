@@ -25,11 +25,11 @@
 
 <br>
 
-### 결론
+## 결론
 : HTML 문서의 head 태그 사이에 입력하는 특수 태그로서 사이트의 디자인에는 전혀 영향을 미치지 않고 문서가 어떤 내용을 담고 있고, 문서의 키워드는 무엇이며, 무엇을 만들었는지 등의 문서 자체의 특성을 담고 있습니다.
 
 <br>
 
-### 참고
+## 참고
 - [HTML `<meta>` 태그 - 코딩의 시작, TCP School](http://www.tcpschool.com/html-tags/meta)
 - [head 태그에는 무엇이 있을까? HTML의 메타데이터](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)

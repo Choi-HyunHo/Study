@@ -2,14 +2,14 @@
 Document Type의 약어입니다.
 <br>
 
-### DOCTYPE 선언이란?
+## DOCTYPE 선언이란?
 - __웹 브라우저에게 해당 문서의 HTML 버전을 알려주는 역할을 합니다.__
 - DTD(Document Type Declaration)를 통해서 현재의 웹 문서가 어떤 버전의 HTML 기술로 작성되어 있는지 웹 브라우저에게 전달합니다.
 >>> DTD : 문서별로 해당 문서에 대한 태그 정보가 다르면 가독성 과 파악하기 어렵기 때문에, 공통 규칙에 따라 문서를 작성하게 하는 것 입니다.
 
 <br>
 
-### 선언의 목적
+## 선언의 목적
 - __문서간의 호환성을 높이기 위함 입니다.__
 - HTML 문서 버전의 종류에는 HTML5, HTML4 이하 및 XHTML이 있습니다. 사용 용도와 발전 기간에 따라 버전이 달라졌습니다.<br>
 (DOCTYPE에 대하여 알아보는 것이므로 각각 HTML 버전에 대한 자세한 설명은 생략 하겠습니다.)
@@ -17,13 +17,13 @@ Document Type의 약어입니다.
 
 <br>
 
-### 선언 종류
-#### HTML5
+## 선언 종류
+### HTML5
 ```html
 <!DOCTYPE html>
 ```
 
-#### HTML4.01
+### HTML4.01
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 -> strict(엄격모드), 웹 표준을 엄격하게 지키는 버전
@@ -41,12 +41,12 @@ Document Type의 약어입니다.
 
 <br>
 
-### 특징
+## 특징
 - HTML은 `<html>, <head>, <body>` 로 구성되어 있습니다. 그리고 가장 최상단 `<!DOCTYPE html...>` 있습니다.
 - DOCTYPE는 `<html>` 태그 보다 먼저 선언하는 것이 일반적이며, 태그가 아니기 때문에 </> 과 같이 닫아주지 않아도 됩니다.
 
 <br>
 
-### 참고
+## 참고
 - [문서 타입 정의](https://developer.mozilla.org/ko/docs/Glossary/Doctype)
 - [문서 형식 선언](https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%ED%98%95%EC%8B%9D_%EC%84%A0%EC%96%B8)
