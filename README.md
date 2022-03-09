@@ -11,7 +11,7 @@
 - [메타태그](html/meta.md) 
 - [시맨틱 마크업](html/semantic.md)
 - [다국어 사이트를 만들 때 고려해야 하는 사항](html/language.md)
-- 쿠키, 세션, 로컬스토리지
+- [쿠키, 웹 스토리지(세션, 로컬)](html/storage.md)
 - 커스텀 데이터 속성(date-*)
 - 적응형과 반응형
 - 이미지 태그에 srcset 속성을 사용하는 이유
