@@ -1,10 +1,10 @@
-# TIL
+# 💻TIL
 
 기억보다 기록하기
 
 <br>
 
-## HTML
+## 📃HTML
 - [DOCTYPE 이란?](html/doctype.md)
 - [표준모드(standards mode)와 호환모드(quirks mode)](html/mode.md)
 - [웹 접근성 & 웹 표준 & 웹 호환성](html/web.md)
@@ -18,7 +18,7 @@
 
 <br>
 
-## CSS
+## ✒️CSS
 - Id 와 Class
 - Box Model
 - box-sizing
@@ -37,7 +37,7 @@
 
 <br>
 
-## JavaScript
+## ✨JavaScript
 - 자바스크립트란?
 - 프로그래밍 언어에서 변수란?
 - var, let, const
