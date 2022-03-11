@@ -14,7 +14,7 @@
 - [쿠키, 웹 스토리지(세션, 로컬)](html/storage.md)
 - [커스텀 데이터 속성(date-*)](html/data.md)
 - [반응형과 적응형](html/responsive.md)
-- 이미지 태그에 srcset 속성을 사용하는 이유
+- [이미지 태그에 srcset 속성을 사용하는 이유](html/img.md)
 
 <br>
 
