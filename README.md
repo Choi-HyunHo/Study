@@ -19,7 +19,7 @@
 <br>
 
 ## ✒️CSS
-- Id 와 Class
+- [Id 와 Class](css/selector.md)
 - Box Model
 - box-sizing
 - display 속성
