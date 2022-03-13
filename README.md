@@ -20,8 +20,7 @@
 
 ## ✒️CSS
 - [Id 와 Class](css/selector.md)
-- Box Model
-- box-sizing
+- [Box Model](css/box_model.md)
 - display 속성
 - position 속성
 - Grid
