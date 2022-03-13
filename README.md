@@ -21,7 +21,7 @@
 ## ✒️CSS
 - [Id 와 Class](css/selector.md)
 - [Box Model](css/box_model.md)
-- display 속성
+- [display 속성](css/display.md)
 - position 속성
 - Grid
 - Flex
