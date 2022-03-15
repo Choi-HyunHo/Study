@@ -22,7 +22,7 @@
 - [Id 와 Class](css/selector.md)
 - [Box Model](css/box_model.md)
 - [display 속성](css/display.md)
-- position 속성
+- [position 속성](css/position.md)
 - Grid
 - Flex
 - Float
