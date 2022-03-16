@@ -23,7 +23,7 @@
 - [Box Model](css/box_model.md)
 - [display 속성](css/display.md)
 - [position 속성](css/position.md)
-- Grid
+- [Grid](css/grid.md)
 - Flex
 - Float
 - em & rem
