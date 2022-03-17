@@ -24,7 +24,7 @@
 - [display 속성](css/display.md)
 - [position 속성](css/position.md)
 - [Grid](css/grid.md)
-- Flex
+- [Flex](css/flex.md)
 - Float
 - em & rem
 - z-index
