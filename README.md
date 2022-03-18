@@ -25,7 +25,7 @@
 - [position 속성](css/position.md)
 - [Grid](css/grid.md)
 - [Flex](css/flex.md)
-- Float
+- [Float 의미와 문제점](css/float.md)
 - em & rem
 - z-index
 - CSS 우선순위
