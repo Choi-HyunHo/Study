@@ -29,7 +29,7 @@
 - [Float 사용법](css/float-2.md)
 - [em & rem](css/fontSize.md)
 - [z-index](css/z-index.md)
-- CSS 우선순위
+- [CSS 우선순위](css/priority.md)
 - Resetting과 Normalizing CSS의 차이점
 - CSS 애니메이션과 JS 애니메이션의 차이점
 - CSS 전처리기의 장점과 단점
