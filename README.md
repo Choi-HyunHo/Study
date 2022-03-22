@@ -32,7 +32,7 @@
 - [CSS 우선순위](css/priority.md)
 - [Resetting과 Normalizing CSS의 차이점](css/reset.md)
 - [CSS 애니메이션과 JS 애니메이션의 차이점](css/animation.md)
-- CSS 전처리기의 장점과 단점
+- [CSS 전처리기](css/preprocessor.md)
 - SASS(SCSS)
 
 <br>
