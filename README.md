@@ -38,7 +38,7 @@
 <br>
 
 ## ✨JavaScript
-- 자바스크립트란?
+- [자바스크립트란?](js/javascript.md)
 - 프로그래밍 언어에서 변수란?
 - var, let, const
 - Hoisting(호이스팅)
