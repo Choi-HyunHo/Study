@@ -29,10 +29,23 @@
 4. AJAX 기술을 이용한 웹 서버와의 통신
 5. 웹 브라우저 제어, 쿠키 등의 설정과 조회
 
+<br>
+
+## JavaScript 장점
+- 자바스크립트는 컴파일 과정이 없기 때문에 다른 언어와 비교했을 때 빠른 시간 안에 스크립트 코드를 작성할 수 있게 도와줍니다.
+
+- 자바스크립트는 웹에 특화된 기술이기 때문에 운영체제나 플랫폼에 상관없이 잘 작동되고 확장성도 높습니다.
+
+<br>
+
+## JavaScript 단점
+- HTML 소스코드에 함께 작성되면서 소스코드가 외부로 공개되는데, 이 과정에서 보안 취약점이 발생할 수 있습니다.
 
 <br>
 
 ## 참고
+- [MDN, Javascript](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - https://coding-factory.tistory.com/193
 - https://crazykim2.tistory.com/690
 - https://hongjw1938.tistory.com/208
+- https://intrepidgeeks.com/tutorial/technical-interview-javascript
