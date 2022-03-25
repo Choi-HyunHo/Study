@@ -41,6 +41,7 @@
 - [자바스크립트란?](js/javascript.md)
 - [프로그래밍 언어에서 변수란?](js/variable.md)
 - [var, let, const](js/var_let_const.md)
+- [변수 선언, 초기화, 할당](js/variable_2.md)
 - Hoisting(호이스팅)
 - 함수 선언문과 함수 표현식의 차이점
 - 콜백 함수(Callback Function)
