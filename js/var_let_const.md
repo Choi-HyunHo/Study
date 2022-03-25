@@ -75,7 +75,7 @@ b = 222;
 console.log(b); // 222
 ```
 
-- let 은 함수 내부는 물론, if문이나 for문 등의 코드 블럭{ ... } 에서 선언된 변수도 지역변수로 취급 합니다. (`블럭 레벨 스코프(Block Level Scope)`)
+- let 은 함수 내부는 물론, if문이나 for문 등의 코드 블럭{ ... } 에서 선언된 변수도 지역변수로 취급 합니다.<br>`블럭 레벨 스코프(Block Level Scope)`
 ```js
 let a = "a";
 
@@ -111,7 +111,7 @@ const b = 20; // SyntaxError: Identifier 'b' has already been declared
 const c = 111; 
 c = 222; // TypeError: Assignment to constant variable.
 ```
-- const는 함수 내부는 물론, if문이나 for문 등의 코드 블럭{ ... } 에서 선언된 변수도 지역변수로 취급 합니다. (`블럭 레벨 스코프(Block Level Scope)`)
+- const는 함수 내부는 물론, if문이나 for문 등의 코드 블럭{ ... } 에서 선언된 변수도 지역변수로 취급 합니다. <br>`블럭 레벨 스코프(Block Level Scope)`
 
 <br>
 
