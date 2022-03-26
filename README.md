@@ -44,7 +44,7 @@
 - [변수 선언, 초기화, 할당](js/variable_2.md)
 - [실행 컨텍스트](js/context.md) 
 - [Hoisting(호이스팅)](js/hoisting.md)
-- 함수 선언문과 함수 표현식의 차이점
+- [함수 선언문과 함수 표현식의 차이점](js/function.md)
 - 콜백 함수(Callback Function)
 - 이벤트 버블링, 이벤트 캡처링, 이벤트 위임
 - 이벤트 루프
