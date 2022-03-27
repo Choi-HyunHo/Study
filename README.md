@@ -49,8 +49,8 @@
 - [콜백 함수(Callback Function)](js/callback.md)
 - [이벤트 버블링, 이벤트 캡처링, 이벤트 위임](js/event.md)
 - [이벤트 루프](js/event_loop.md)
-- 클래스(Class)
-- 생성자 함수(Constructor Function) + new
+- [생성자 함수(Constructor Function)](js/constructor.md)
+- [클래스(Class)](js/class.md)
 - 클로저(Closure)
 - AJAX
 - Fetch
