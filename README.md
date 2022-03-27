@@ -51,7 +51,7 @@
 - [이벤트 루프](js/event_loop.md)
 - [생성자 함수(Constructor Function)](js/constructor.md)
 - [클래스(Class)](js/class.md)
-- 클로저(Closure)
+- [클로저(Closure)](js/closure.md)
 - AJAX
 - Fetch
 - Promise
