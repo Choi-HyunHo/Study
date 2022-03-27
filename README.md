@@ -39,6 +39,7 @@
 
 ## ✨JavaScript
 - [자바스크립트란?](js/javascript.md)
+- [`<script>` 태그는 어디에 위치해야 할까?](js/script.md)
 - [프로그래밍 언어에서 변수란?](js/variable.md)
 - [var, let, const](js/var_let_const.md)
 - [변수 선언, 초기화, 할당](js/variable_2.md)
