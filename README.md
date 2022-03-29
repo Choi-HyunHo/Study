@@ -56,7 +56,7 @@
 - Fetch
 - Promise
 - Async / Await
-- 엄격모드(use strict)
+- [엄격모드(use strict)]
 - ==(동등 연산자)와 ===(일치 연산자)의 차이
 - DOM(Document Object Model)
 - BOM(Browser Object Model)
