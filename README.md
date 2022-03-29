@@ -58,6 +58,6 @@
 - Async / Await
 - [엄격모드(use strict)](js/use_strict.md)
 - [==(동등 연산자)와 ===(일치 연산자)의 차이](js/operator.md)
-- DOM(Document Object Model)
+- [DOM(Document Object Model)](js/dom.md)
 - BOM(Browser Object Model)
 - JSON(Javascript Object Notation)
