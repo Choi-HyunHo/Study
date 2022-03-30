@@ -59,5 +59,5 @@
 - [엄격모드(use strict)](js/use_strict.md)
 - [==(동등 연산자)와 ===(일치 연산자)의 차이](js/operator.md)
 - [DOM(Document Object Model)](js/dom.md)
-- BOM(Browser Object Model)
+- [BOM(Browser Object Model)](js/bom.md)
 - JSON(Javascript Object Notation)
