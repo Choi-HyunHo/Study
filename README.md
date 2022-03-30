@@ -52,8 +52,7 @@
 - [생성자 함수(Constructor Function)](js/constructor.md)
 - [클래스(Class)](js/class.md)
 - [클로저(Closure)](js/closure.md)
-- AJAX
-- Fetch
+- [AJAX](js/ajax.md)
 - Promise
 - Async / Await
 - [엄격모드(use strict)](js/use_strict.md)
