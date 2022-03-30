@@ -54,7 +54,7 @@
 - [클로저(Closure)](js/closure.md)
 - [AJAX](js/ajax.md)
 - [Promise](js/promise.md)
-- Async / Await
+- [Async / Await](js/async.md)
 - [엄격모드(use strict)](js/use_strict.md)
 - [==(동등 연산자)와 ===(일치 연산자)의 차이](js/operator.md)
 - [DOM(Document Object Model)](js/dom.md)
