@@ -60,3 +60,8 @@
 - [DOM(Document Object Model)](js/dom.md)
 - [BOM(Browser Object Model)](js/bom.md)
 - [JSON(Javascript Object Notation)](js/json.md)
+
+<br>
+
+## 🔥 TypeScript
+- [타입스크립트를 사용하는 이유](ts/typescript.md)
