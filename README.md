@@ -66,3 +66,4 @@
 ## 🔥 TypeScript
 - [타입스크립트를 사용하는 이유](ts/typescript.md)
 - [타입스크립트 기본 타입](ts/type.md)
+- [타입스크립트의 함수](ts/function.md)
