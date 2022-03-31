@@ -72,6 +72,7 @@ total.toLocaleString();
 <br>
 
 ## 참고
+- [타입스크립트 공식 문서](https://www.typescriptlang.org/)
 - [캡틴판교](https://joshua1988.github.io/ts/why-ts.html#%EC%99%9C-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94)
 - [인프런](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8)
 - https://imagineu.tistory.com/6
