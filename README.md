@@ -68,3 +68,4 @@
 - [타입스크립트 기본 타입](ts/type.md)
 - [타입스크립트의 함수](ts/function.md)
 - [Interface(인터페이스)](ts/interface.md)
+- [Type Aliases(타입별칭)](ts/type_aliases.md)
