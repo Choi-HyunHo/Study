@@ -93,3 +93,9 @@ askQuestion(Answer.Yes);
 askQuestion('Yes'); // 에러 발생, 이넘을 이용해서 정의하면 이넘에서 제공하는 데이터만 사용 가능 
 ```
 - 목록이 필요한 형태에서 `enum` 을 정의해서 사용하는 것이 정확한 코드, 예외 처리의 케이스를 줄일 수 있습니다.
+
+<br>
+
+## 참고
+- [인프런](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/dashboard)
+- [캡틴판교](https://joshua1988.github.io/ts/guide/enums.html#%EC%9D%B4%EB%84%98-enums)
