@@ -72,3 +72,4 @@
 - [Union Type & Intersection Type ](ts/union_type.md)
 - [Enum(이넘)](ts/enum.md)
 - [타입스크립트의 클래스](ts/class.md)
+- [제네릭(Generics)](ts/generics.md)
