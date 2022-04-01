@@ -70,3 +70,4 @@
 - [Interface(인터페이스)](ts/interface.md)
 - [Type Aliases(타입별칭)](ts/type_aliases.md)
 - [Union Type & Intersection Type ](ts/union_type.md)
+- [Enum(이넘)](ts/enum.md)
