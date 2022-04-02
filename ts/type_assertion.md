@@ -44,7 +44,7 @@ div.innerText
 
 <br>
 
-### `null` 아니라는 것을 보장을 아래 코드 처럼 타입을 보장 해야 합니다.
+### `null` 아니라는 것을 보장 하기위해 아래 코드 처럼 사용 합니다.
 ```js
 let div = document.querySelector('div')
 if (div){
