@@ -78,3 +78,4 @@
 - [타입 단언(Type Assertion)](ts/type_assertion.md)
 - [타입 가드(Type Guard)](ts/type_guard.md)
 - [타입 호환(Type Compatibility)](ts/type_compatibility.md)
+- [타입스크립트의 모듈](ts/ts_modules.md)
