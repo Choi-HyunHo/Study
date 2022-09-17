@@ -208,6 +208,21 @@ export default App;
 ![캡처](https://user-images.githubusercontent.com/87301268/161903496-cbf6ffd8-b722-4748-9d5f-a3b07ed89328.JPG)
 
 ***
+<br>
+
+## 정리
+- 부모 컴포넌트가 자식 컴토넌트에게 주는 값
+- 부모 컴포넌트가 자식 컴포넌트한테 전달하는 데이터로, (자식 입장에서)읽기 전용.
+- 자식 컴포넌트에서는 props를 받아오기만 하고 받아온 props를 직접 수정할 수는 없습니다.
+
+읽기 전용 객체가 아니라면? <br>
+props를 전달 받은 하위 컴포넌트 내에서 props 를 직접 수정 시 props 를 전달한 상위 컴포넌트의 값에 영향을 미칠 수 있습니다. <br>
+
+__즉, 개발자가 의도하지 않은 side effect 가 생기게 되고 이는 React 의 단방향, 하향식 데이터 흐름 원칙에 위배 됩니다.__
+
+
+***
+<br>
 
 ## 참고
 - [인프런](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%EB%A6%AC%EC%95%A1%ED%8A%B8/dashboard)
