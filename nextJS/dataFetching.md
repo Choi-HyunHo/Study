@@ -6,7 +6,7 @@
 <br>
 
 ## 1. SSR (Server Side Render)
-페이지에 대한 요청이 있을 때마다 서버에서 페이지를 만들어 반환 합니다. 서버에서 매번 연산을 해야하며 캐시를 사용하는 것이 상대적으로 어렵기 때문에 SSG에 비해 느립니다. 하지만 항상 최신의 정보를 보여주어야하는 경우, SSR를 사용하는 것이 좋다. 
+페이지에 대한 요청이 있을 때마다 서버에서 페이지를 만들어 반환 합니다. 서버에서 매번 연산을 해야하며 캐시를 사용하는 것이 상대적으로 어렵기 때문에 SSG에 비해 느립니다. 하지만 항상 최신의 정보를 보여주어야하는 경우, SSR를 사용하는 것이 좋습니다.
 
 <br>
 
@@ -34,7 +34,7 @@
 
 Next.js에서 SSR을 사용하기 위해서는 페이지에서 getServerSideProps() 를 통해 데이터를 받아와야 합니다.
 
-- 빌드타임에만 실행되는 getStaticProps()와는 달리 getServerSideProps()는 페이지에 대한 요청이 있을 때마다 실행된다.
+- 빌드타임에만 실행되는 getStaticProps()와는 달리 getServerSideProps()는 페이지에 대한 요청이 있을 때마다 실행 됩니다.
 
 <br>
 
@@ -293,7 +293,7 @@ export async function getStaticProps() {
 
 ## 4. ISR ( Incremental Static Regeneration )
 
-- __증분 정적 사이트__를 재생성 합니다.
+- __증분 정적 사이트__ 를 재생성 합니다.
 - 재생성한다 : (특정 주기로) 데이터를 가져와서 다시 그립니다.
 
 <Br>
@@ -335,6 +335,8 @@ export default function isr({time}) {
 - 하지만 ISR 은 설정한 특정 주기대로 화면을 동적으로 변화시킬 수 있습니다.
 
 ![](https://velog.velcdn.com/images/hoho_0815/post/66d337d5-717c-4a2d-824c-5c61b93cb21c/image.gif)
+
+<br>
 
 - 새로고침을 아무리해도 1초 간격으로 실행이 됩니다.
 
