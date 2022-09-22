@@ -11,6 +11,7 @@
 - [모던 자바스크립트 Deep Dive_원시 값과 객체의 비교](equal.md)
 - [모던 자바스크립트 Deep Dive_함수](function.md)
 - [모던 자바스크립트 Deep Dive_스코프](scope.md)
+- [모던 자바스크립트 Deep Dive_전역 변수의 문제점](globalVariable.md)
 
 ***
 

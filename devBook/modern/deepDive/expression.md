@@ -1,4 +1,4 @@
-# 05_표현식과 문
+# 05 표현식과 문
 ## 5.1 값(value)
 > <span style="color:#0000FF">값(value)</span>은 __식(표현식 expression)__ 이 __평가(evaluate)__ 되어 생성된 결과를 말한다.
 ```js
