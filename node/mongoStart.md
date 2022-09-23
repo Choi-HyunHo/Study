@@ -68,7 +68,8 @@ npm install mongoose --save
 
 <br>
 
-![](https://velog.velcdn.com/images/hoho_0815/post/d59c0026-45e3-4ddf-92d1-633c9b1dab0b/image.png)
+![](https://velog.velcdn.com/images/hoho_0815/post/34ceaa62-0335-415f-83d0-869c5a131415/image.png)
+
 
 - package.json 에 추가된걸 확인 할 수 있습니다.
 
