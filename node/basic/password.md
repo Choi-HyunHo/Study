@@ -88,5 +88,31 @@ __.gitignore__ 에 dev.js 추가
 ***
 <br>
 
+## 포스트맨 에러 발생!
+위와 같은 가정으로 env 파일 사용 후 connect 하고, 지난 포스팅에 작성 하였던 postman 을 send 했더니 에러가 발생 하였습니다.
+
+![](https://velog.velcdn.com/images/hoho_0815/post/40bf3e8f-5fde-4fa8-a0dc-08fde36dfc69/image.png)
+
+<br>
+
+에러 코드 `code : 11000` 을 찾아보니, MongoDB 에서 키 값이 중복으로 발생하여 나타나는 오류라고 찾았습니다.
+
+<br>
+
+### 해결 방법
+MongoDB 에 로그인해서 클러스터에 들어가 collections에서 아래 화면의 빨간 원 안에 있는 수정/삭제를 해주자.
+
+<br>
+
+![](https://velog.velcdn.com/images/hoho_0815/post/582f9bdc-5d86-428a-9ca6-6cf54dfffe61/image.png)
+
+<br>
+
+이미 동일한 값이 들어가 있어서 생기는 에러 였다. 삭제 후 다시 누르면 정상적으로 post가 된다.
+
+
+***
+<br>
+
 ## 참고
 - 따라하며 배우는 노드, 리액트
