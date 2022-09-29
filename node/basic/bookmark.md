@@ -10,3 +10,4 @@
 - [Bcrypt - 비밀번호 암호화](bcrypt.md)
 - [Bcrypt - 로그인 기능](bcryptTwo.md)
 - [Auth 기능](auth.md)
+- [로그아웃 기능](logout.md)

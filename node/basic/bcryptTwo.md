@@ -65,16 +65,6 @@ npm install cookie-parser --save
 
 #### index.js 에 아래 코드 추가
 ```js
-const cookieParser = require('cookie-parser')
-app.use(cookieParser)
-```
-
-***
-<br>
-
-## 전체 코드
-### index.js
-```js
 // 백엔드 서버 시작점
 
 const express = require('express'); // express 모듈을 가져온다.
@@ -92,19 +82,19 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-
 const mongoose = require('mongoose');
 mongoose.connect(config.mongoURI ,{
     useNewUrlParser : true, useUnifiedTopology : true
 }).then(()=> console.log('MongoDB Connected...')).catch(err => console.log('error'));
 
 const { User } = require('./models/User');
+const { auth } = require('./middleware/auth');
 
 
 app.get('/', (req, res) => res.send('Hello World! 123')); // 루트 디렉토리에 hello world! 출력
 
 // 회원가입을 위한 route
-app.post('/register', (req, res) => {
+app.post('/api/user/register', (req, res) => {
     // 회원 가입 할 때 필요한 정보들을 client 에서 가져오면
     // 그것들을 데이터베이스에 넣어준다. -> User.js 모델을 가져온다.
 
@@ -120,7 +110,7 @@ app.post('/register', (req, res) => {
     }) 
 })
 
-app.post('/login', (req, res) => {
+app.post('/api/user/login', (req, res) => {
     // 1. 요청된 이메일을 데이터베이스에서 있는지 찾는다.
     User.findOne({email : req.body.email}, (err, userInfo) => {
         if(!userInfo){
@@ -142,7 +132,7 @@ app.post('/login', (req, res) => {
                     } else {
                         // 토큰을 저장한다. 쿠키 ( 다른 방법도 있다. )
                         // 쿠키 저장하려면 라이브러리 다운 - express 에서 제공하는 ( npm install cookie-parser --save)
-                        res.cookie("x-auth", user.token)
+                        res.cookie("x_auth", user.token)
                             .status(200) // 성공
                             .json({loginSuccess : true, userId : user._id});
                     }

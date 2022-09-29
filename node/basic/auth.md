@@ -61,11 +61,8 @@ userSchema.statics.findByToken = function(token, cb){
         // 유저 아이디를 이용해서 유저를 찾은 다음
         // 클라이언트에서 가져온 토큰과 데이터베이스에 보관된 토큰이 일치하는지 확인
         user.findOne({"_id" : decoded, "token" : token}, function(err, user){
-            if(err){
-                return cb(err);
-            } else {
-                cb(null, user);
-            }
+            if(err) return cb(err);
+            cb(null, user);
         })
     })
 }
@@ -81,13 +78,12 @@ const { User } = require("../models/User");
 let auth = (req, res, next) => {
     // 인증 처리를 하는 곳
     // 1. 클라이언트 쿠키에서 토큰을 가져오는 코드
-    let token = req.cookie.x_auth 
+    let token = req.cookies.x_auth; 
 
     // 2. 가져온 토큰을 복호화 한 후 유저를 찾는 코드,
     User.findByToken(token, (err, userInfo) => {
-        if(err) {
-            throw err;
-        } else {
+        if(err) { throw err; }
+        if(!userInfo){
             return res.json({isAuth : false, error : true})
         }
 
