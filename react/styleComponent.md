@@ -19,6 +19,7 @@ $ npm install --save styled-components
 $ yarn add styled-components
 ```
 
+***
 <br>
 
 ## 사용 예시
@@ -62,6 +63,8 @@ const CustomDiv = styled.div`
 - 템플릿 리터럴 내에서 javascript를 사용하는 것과 같은 형식이며, 
 내부에서 선언된 함수는 props를 파라미터로 실행 됩니다.
 
+
+***
 <br>
 
 ### 확장 스타일링
@@ -88,6 +91,7 @@ return (
   );
 ```
 
+***
 <br>
 
 ### 중첩 스코프
@@ -110,12 +114,135 @@ const StyledDiv = styled.div`
     </>
   );
 ```
-
+***
 <br>
 
+### as
+```js
+import React from 'react';
+import styled from 'styled-components';
+
+const Btn = styled.button`
+  color : red;
+  border-radius : 15px;
+`
+
+function App() {
+  return (
+    <React.Fragment>
+      <Btn />
+      <Btn as='a'/>
+    </React.Fragment>
+  );
+}
+
+export default App;
+```
+
+
+![](https://velog.velcdn.com/images/hoho_0815/post/657a8171-430f-4b95-8448-c06c41ca7c58/image.png)
+
+- 만약 버튼 대신에 href 같은 걸 만들고 싶다면 위와 같이 `as` 를 사용 할 수 있습니다.
+- 즉, `as` 는 button styled component 인 Btn 을 사용하는데, HTML 부분을 바꿔서 a 태그로 전달
+- 이는, `<div as='header'>` 이런식으로 다른 태그도 가능 합니다.
+
+***
+<br>
+
+### attr
+```js
+import React from 'react';
+import styled from 'styled-components';
+
+const Input = styled.input.attrs({required : true, minLength : 10})`
+`
+
+function App() {
+    return (
+        <React.Fragment>
+            <Input/>
+            <Input/>
+            <Input/>
+            <Input/>
+            <Input/>
+        </React.Fragment>
+    );
+}
+
+export default App;
+```
+
+![](https://velog.velcdn.com/images/hoho_0815/post/d0c059f0-7269-4fe7-a571-3e3339ee3d20/image.png)
+
+- 스타일 컴포넌트에서 HTML 태그의 속성을 설정하는 방법 입니다.
+- `.attrs({})` 안에 해당 태그의 속성을 사용 할 수 있습니다.
+
+
+***
+<br>
+
+### Animation & 선택자
+```js
+import styled, { keyframes } from "styled-components";
+
+const Wrapper = styled.div`
+  display: flex;
+`;
+
+const rotationAnimation = keyframes`
+  0% {
+    transform:rotate(0deg);
+    border-radius:0px;
+  }
+  50% {
+    border-radius:100px;
+  }
+  100%{
+    transform:rotate(360deg);
+    border-radius:0px;
+  }
+`;
+
+const Box = styled.div`
+  height: 200px;
+  width: 200px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: ${rotationAnimation} 1s linear infinite;
+  span {
+    font-size: 36px;
+    &:hover {
+      font-size: 48px;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+`;
+
+function App() {
+  return (
+    <Wrapper>
+      <Box>
+        <span>🤩</span>
+      </Box>
+    </Wrapper>
+  );
+}
+```
+- 스타일 컴포넌트에서는 keyframes helper를 사용시 앱 전체에서 사용할 수 있는 고유한 인스턴스를 생성
+- 다른 파일에서 같은 이름의 keyframes가 존재하더라도 이름 충돌이 나지 않도록 해줍니다.
+- 또한 선택자들을 자유롭게 사용 할 수 있습니다.
+
+***
+<br>
 
 ## 연습
+
 ### App.js
+
 ```js
 import "./styles.css";
 import styled from "styled-components";
@@ -181,7 +308,72 @@ export default Button;
 
 ![캡처](https://user-images.githubusercontent.com/87301268/173235382-1ad1fb12-fb5f-4634-98c8-ad6cd090e0fd.JPG)
 
+***
+<br>
 
+## 응용
+```js
+const Line = styled.div`
+    height : 2px;
+    margin : 2px 0;
+    width : 100%;
+    ${({ boxColor }) => {
+        const activeStyled = css`
+            background : ${(props) => props.boxColor == props.number ? '#ED5255 ￼' : '#F2F2F2 ￼'};
+        `;
+        const nonActiveStyled = css`
+            background-color : #F2F2F2 ￼;
+        `;
+
+        return boxColor ? activeStyled : nonActiveStyled;
+    }}
+`
+
+const BoxOne = styled.div`
+    height : 56px;
+    min-width : 55px;
+    ${({ boxColor }) => {
+        const activeStyled = css`
+            background : ${(props) => props.boxColor == props.number ? '#ED5255 ￼' : '#F2F2F2 ￼'};
+        `;
+        const nonActiveStyled = css`
+            background-color : #F2F2F2 ￼;
+        `;
+
+        return boxColor ? activeStyled : nonActiveStyled;
+    }}
+
+`
+
+const BoxTwo = styled.div`
+    height : 100%;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+`
+
+const TitleText = styled.span`
+    font-weight : 500;
+    ${theme.fontSize.caption}
+    ${({ boxColor }) => {
+        const activeStyled = css`
+            color : ${(props) => props.boxColor == props.number ? '#FFFFFF ￼' : '#9E9E9E ￼'};
+            margin-bottom : ${(props) => props.boxColor == props.number ? '6px' : ''};
+        `;
+        const nonActiveStyled = css`
+            color: #9E9E9E ￼;
+
+        `;
+
+        return boxColor ? activeStyled : nonActiveStyled;
+    }}
+`
+```
+
+
+
+***
 <br>
 
 ## 참고
