@@ -371,7 +371,63 @@ const TitleText = styled.span`
 `
 ```
 
+***
+<br>
 
+## Themes
+기본적으로 모든 색상들을 가지고 있는 object 입니다.
+
+<br>
+
+### ThemeProvider 
+- index.js 에서 감싸줍니다. 그리고 props 를 전달 합니다.
+
+
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+import { ThemeProvider } from "styled-components";
+import App from "./App";
+
+const darkTheme = {
+  textColor: "whitesmoke",
+  backgroundColor: "#111",
+};
+
+const lightTheme = {
+  textColor: "#111",
+  backgroundColor: "whitesmoke",
+};
+
+ReactDOM.render(
+  <React.StrictMode>
+    <ThemeProvider theme={darkTheme}>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+```
+
+- App 이 ThemeProvider 안에 있기 때문에, 컴포넌트에서 바로 접근이 가능 합니다.
+
+<br>
+
+```js
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: ${(props) => props.theme.textColor};
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: ${(props) => props.theme.backgroundColor};
+```
 
 ***
 <br>
