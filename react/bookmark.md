@@ -29,7 +29,10 @@
 - [Styled-Components](styleComponent.md)
 - [React - SVG 파일 사용법](svg.md)
 - [Redux-toolkit](toolkit.md)
-- [React + TypeScript(interface)](reactTs.md)
+- [React + TypeScript(interface - props)](reactTs.md)
+- [React + TypeScript(Optional Props)](optional.md)
+
+
 ***
 
 ### [뒤로가기](/README.md)
