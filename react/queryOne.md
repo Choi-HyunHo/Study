@@ -41,8 +41,20 @@ react 의 서버 상태를 관리하는 라이브러리 입니다.
     - 서버에서 오류가 발생하는 경우에 대한 재시도를 관리 할 수 있습니다. 
     - 쿼리가 성공하거나 오류가 발생 했을 때를 구별해서 콜백을 전달 할 수 있습니다.
 
-    ***
-    <br>
+***
+<br>
 
-    ## 참고
-    - https://www.udemy.com/course/react-query-react/
+## 설치
+```js
+npm install react-query
+
+or
+
+yarn add react-query
+```
+
+***
+<br>
+
+## 참고
+- https://www.udemy.com/course/react-query-react/
