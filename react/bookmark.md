@@ -35,6 +35,7 @@
 - [React Query - Dev Tools](queryFour.md)
 - [React Query - staleTime vs cacheTime](queryFive.md)
 - [React Query - 쿼리 키](querySix.md)
+- [React Query - 페이지 매김(Pagination)](querySeven.md)
 - [React + TypeScript(interface - props)](reactTs.md)
 - [React + TypeScript(Optional Props)](optional.md)
 
