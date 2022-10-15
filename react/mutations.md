@@ -196,7 +196,7 @@ async function updatePost(postId) {
 export function PostDetail({ post }) {
   const {data, isLoading, isError} = useQuery(['comments', post.id], ()=>fetchComments(post.id));
 
-  const deleteMuation = useMutation(() => deletePost(postId));
+  const deleteMuation = useMutation(() => deletePost(post.id));
 
   if(isLoading){
     return <h3>Loading ...</h3>
