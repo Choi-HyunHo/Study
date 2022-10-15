@@ -37,6 +37,7 @@
 - [React Query - 쿼리 키](querySix.md)
 - [React Query - 페이지 매김(Pagination)](querySeven.md)
 - [React Query - 데이터 프리패칭(Pre-fetching)](prefetching.md)
+- [React Query - isFetching VS. isLoading](isLoading.md)
 - [React + TypeScript(interface - props)](reactTs.md)
 - [React + TypeScript(Optional Props)](optional.md)
 
