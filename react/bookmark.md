@@ -40,6 +40,7 @@
 - [React Query - isFetching VS. isLoading](isLoading.md)
 - [React Query - 변이(Mutation)](mutations.md)
 - [React Query - 무한 스크롤(Infinite Scroll)](infinite.md)
+- [React Query - useInfiniteQuery 호출](infiniteTwo.md)
 - [React + TypeScript(interface - props)](reactTs.md)
 - [React + TypeScript(Optional Props)](optional.md)
 
