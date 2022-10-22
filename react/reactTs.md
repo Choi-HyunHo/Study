@@ -79,7 +79,7 @@ export default Circle;
 <br>
 
 ### interface
-객체의 모양을 TypeScrip에게 설명해주는 개념 <br> 
+객체의 모양을 TypeScript 에게 설명해주는 개념 <br> 
 이전에는 아래와 같은 코드 형식으로 많이 사용 했습니다.
 
 ```js
