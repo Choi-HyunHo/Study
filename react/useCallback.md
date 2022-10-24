@@ -97,7 +97,7 @@ const memoizedCallback = useCallback(
 
 <br>
 
-#### 이럴 떄 함수형 업데이트를 사용 합니다.
+#### 이럴 때 함수형 업데이트를 사용 합니다.
 - `setData` 에는 값이 아니라 함수를 전달 할 수도 있습니다.
 ```js
  const onCreate = useCallback(
