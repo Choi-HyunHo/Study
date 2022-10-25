@@ -7,6 +7,8 @@
 - [Next.js - Link](link.md)
 - [Next.js - Assets, Meta data, CSS](assets.md)
 - [Next.js - Shallow Routing](shallow.md)
+- [Next.js - Router 와 Link 차이](linkVSrouter.md)
+
 
 ***
 
