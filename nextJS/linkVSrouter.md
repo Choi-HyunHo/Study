@@ -54,7 +54,7 @@ react-router-dom의 history.push()와 유사합니다.
 
 정리
 
-- router.push는 onClick에 사용되는 행동(action) 이기 때문에 Link 태그보다 검색에 불리 합니다.
+- router.push는 onClick에 사용되는 행동(action) 이기 때문에 Link 태그보다 검색에 불리 합니다. (하지만 로직의 처리에 따라 활용도가 많습니다.)
 - NextJs의 장점이 SEO (search engine optimization : 검색엔진최적화) 을 원한다면 Link 사용을 추천 합니다.
 
 ***
