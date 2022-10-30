@@ -69,24 +69,24 @@ Construction part 에서 생성된 Render Tree를 이용해서 브라우저 wind
 <br>
 
 ### composition 
-- 준비된 레이어를 브라우저 위에 순서대로 표시한다
+- 준비된 레이어를 브라우저 위에 순서대로 표시합니다.
 
 ***
 <br>
 
 ## construction part에서 render tree를 빠르게 하는 방법
 
-- DOM 요소와 CSS 규칙이 적을수록 빠르다.
-- 불필요한 태그의 자제, div 클래스 남용, 쓸데없는 wrapping class나 요소 사용을 자제한다.
+- DOM 요소와 CSS 규칙이 적을수록 빠릅니다.
+- 불필요한 태그의 자제, div 클래스 남용, 쓸데없는 wrapping class나 요소 사용을 자제합니다.
 
 ​
 
 ## operation part에서 빠르게 하는 방법
 
-- 사용자가 클릭을 해서 요소를 움직이거나 애니메이션을 쓸 때, paint가 자주 발생하지 않도록 만드는 것이 중요하다.
-예시 ) box를 이동할 때 top,left 등의 속성을 사용하면 paint 뿐만 아니라 layout부터 다시 발생한다.
+- 사용자가 클릭을 해서 요소를 움직이거나 애니메이션을 쓸 때, paint가 자주 발생하지 않도록 만드는 것이 중요 합니다.
+예시 ) box를 이동할 때 top,left 등의 속성을 사용하면 paint 뿐만 아니라 layout부터 다시 발생 합니다.
 
-- 하지만, translate을 사용하게 되면 composition 만 일어난다.
+- 하지만, translate을 사용하게 되면 composition 만 일어납니다.
 
 ***
 <br>
