@@ -78,7 +78,7 @@ useEffect(()=>{
 	console.log("update!");
 })
 ```
-- 사용할 때는 의존성 배열(뎁스) 를 전달하지 않으면 됩니다.
+- 사용할 때는 의존성 배열(뎁스) 를 전달하지 않으면 됩니다. ( 하지만 모든 상태에 반응해서 의미가 없습니다! )
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/87301268/162370026-20214617-f964-47b6-8fcc-60d9485e57de.gif)
 
 <br>
