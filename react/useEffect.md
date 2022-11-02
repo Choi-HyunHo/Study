@@ -154,14 +154,26 @@ const UnmountTest = () => {
 ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/87301268/162373833-92515ee2-3e4d-43fc-872c-a7a6443a5282.gif)
 
 ***
+<br>
 
 ## 정리
 ### useEffect
-- 사이드 이펙트를 수행하기 위한 훅
-- 사이드 이펙트란, 서버에서 데이터를 받아오거나 수동으로 DOM 을 변경하는 등의 작업
 - __useEffect()__ 훅으로만 클래스 컴포넌트의 생명주기 함수들과 동일한 기능을 수행 할 수 있음
+- 첫 컴포넌트 렌더링 시 한 번은 수행 ( [ ] 여부와 관계없이 )
+```js
+useEffect(() => {
+  console.log(number)
+  console.log(action)
+},[number, action])
+```
+
+만약 number 의 값이 변하면 위의 useEffect 는 다시 작동 합니다. ( action 값이 같아도! )
+- 즉, number가 바뀌면 console.log(action) 은 같이 나옵니다. 
+- 이유는 의존성 배열에 들어있는 값이 변하기 때문입니다.
+
 
 ***
+<br>
 
 ## 참고
 - [인프런](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%EB%A6%AC%EC%95%A1%ED%8A%B8/dashboard)
